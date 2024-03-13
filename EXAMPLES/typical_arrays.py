@@ -1,7 +1,7 @@
 fruits = ['apple', 'cherry', 'orange', 'kiwi', 'banana', 'pear', 'fig'] # list
-name = "Eric Idle"  # str
-knight = 'King', 'Arthur', 'Britain'  # tuple
-data = b"abcde"   # bytes
+name = ("Eric Idle")  # str
+knight = ('King', 'Arthur', 'Britain')  # tuple
+data = (b"abcde")   # bytes
 
 print(fruits[3])  # print 4th element of fruits
 print(name[2])  # print 3rd letter of name

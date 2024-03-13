@@ -17,7 +17,7 @@ while True:
         print(f"I got it in {tries} tries!")
         break
     else:
-        print("Please enter h, l, or y")
+        print("Please enter q, h, l, or y")
 
     if answer == "h" or answer == "l":
         tries += 1  # tries = tries + 1
