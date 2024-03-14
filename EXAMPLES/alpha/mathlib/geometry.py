@@ -40,7 +40,11 @@ def square_area(side):
     """
     return side ** 2
 
+print(f"********** MY NAME IS {__name__} **********")
+
 if __name__ == "__main__":
+    print("I AM RUNNING DIRECTLY!")
+
     area1 = square_area(15)
     print(f"area1: {area1}")
     
@@ -49,3 +53,5 @@ if __name__ == "__main__":
     
     area3 = rectangle_area(9, 13)
     print(f"area3: {area3}")
+
+#  python geometry.py

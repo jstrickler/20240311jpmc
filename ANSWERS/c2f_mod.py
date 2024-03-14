@@ -6,3 +6,4 @@ fahrenheit = c2f(celsius)
 
 print(f"{celsius:.1f} C is {fahrenheit:.1f} F")
 
+

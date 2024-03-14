@@ -1,4 +1,8 @@
-from geometry import circle_area as c_area, rectangle_area as r_area, square_area as s_area
+from EXAMPLES.alpha.mathlib.geometry import circle_area as c_area, rectangle_area as r_area, square_area as s_area
+#      pkg.module
+import lxml.etree as et
+
+#  pkg.pkg.pkg.module
 
 a1 = c_area(8)
 a2 = r_area(10, 12)
