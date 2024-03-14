@@ -7,7 +7,7 @@ mary_in.close()  # close file (easy to forget to do this!)
 
 with open(FILE_NAME) as mary_in:  # open file for reading
     for raw_line in mary_in:  # iterate over lines in file (line retains \n)
-        line = raw_line.rstrip()  # rstrip('') removes whitespace (including \n or \r ) from end of string
+        line = raw_line.rstrip()  # rstrip() removes whitespace (including \n or \r ) from end of string
         print(line)
 print('-' * 60)
 

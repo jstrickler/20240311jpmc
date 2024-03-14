@@ -46,8 +46,8 @@ for person in people:
     print(first_name, last_name)
 print('-' * 60)
 
-for first_name, last_name, product, dob in people:
-    print(first_name, last_name, dob)
+for first_name, last_name, *_ in people:
+    print(first_name, last_name)
 print('-' * 60)
 
 

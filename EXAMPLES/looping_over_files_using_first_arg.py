@@ -2,6 +2,8 @@ import sys
 
 first_arg = sys.argv.pop(1)
 
+# myscript.py wombat foo.txt bar.txt
+
 print(f"first arg is '{first_arg}'")
 for file_path in sys.argv[1:]:  # skip script name
     print(f"Processing {file_path}")

@@ -14,3 +14,20 @@ for m in sorted(colors):   # sorted() returns a sorted list
     print(m, end=' ')
 print()
 
+nums = [800, 80, 1000, 32, -3, 8, 18, 255, 400, 5, 5000]
+
+s = sum(nums)
+print(f"{s = }")
+
+fruits = ['pomegranate', 'cherry', 'apricot', 'apple',
+'lemon', 'kiwi', 'orange', 'lime', 'watermelon', 'guava',
+'papaya', 'fig', 'pear', 'banana', 'tamarind', 'persimmon',
+'elderberry', 'peach', 'blueberry', 'lychee', 'grape', 'date' ]
+
+f = sorted(fruits)
+print(f"{f = }\n")
+
+print(f"{colors = }\n")
+for i, color in enumerate(colors, 1):
+    print(i, color)
+print()

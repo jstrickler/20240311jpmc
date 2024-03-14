@@ -12,6 +12,8 @@ print("pink in colors: ", ("pink" in colors))
 print("colors: ", ",".join(colors))  # Concatenate iterable using ", " as delimiter
 
 del colors[4]  # remove brown
+# del colors[2:9]
+
 
 print("removed 'brown':", ",".join(colors))
 
@@ -26,3 +28,7 @@ print("sum of lists:", sum_of_lists)
 product = [True] * 5  # Multiply a list; replicates elements
 
 print("product of lists:", product)
+
+print('-' * 60)
+
+print('+~' * 50)
